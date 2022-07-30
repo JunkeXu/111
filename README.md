@@ -35,9 +35,7 @@ conda activate tf1
 
 ## Packages
 
-### Install the tensorflow and keras
-
-In the newly created virtual environment tf1, install the two libraries using the following command.
+In the newly created virtual environment tf1, install libraries using the following command.
 
 pip install tensorflow==1.14.0
 
