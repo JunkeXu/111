@@ -78,11 +78,8 @@ Once the dataset has been downloaded, unzip it as follows.
 
 The code for classifying images of dogs and cats is as follows:
 
-'
-# The path where the original directory is located
+`
 original_dataset_dir = 'C:\\Users\\xjk\\Desktop\\Cat_And_Dog\\train\\'
-
-# Catalogues after data set classification
 base_dir = 'C:\\Users\\xjk\\Desktop\\Cat_And_Dog\\train1'
 os.mkdir(base_dir)
 #Catalogue of training, validation and test datasets
@@ -92,61 +89,49 @@ validation_dir = os.path.join(base_dir, 'validation')
 os.mkdir(validation_dir)
 test_dir = os.path.join(base_dir, 'test')
 os.mkdir(test_dir)
-# Cat training pictures in the catalogue
 train_cats_dir = os.path.join(train_dir, 'cats')
 os.mkdir(train_cats_dir)
-# Dog training pictures in the catalogue
 train_dogs_dir = os.path.join(train_dir, 'dogs')
 os.mkdir(train_dogs_dir)
-# Cat verification of the directory where the image is located
 validation_cats_dir = os.path.join(validation_dir, 'cats')
 os.mkdir(validation_cats_dir)
-# Directory where the dog validation dataset is located
 validation_dogs_dir = os.path.join(validation_dir, 'dogs')
 os.mkdir(validation_dogs_dir)
-# The directory where the cat test dataset is located
 test_cats_dir = os.path.join(test_dir, 'cats')
 os.mkdir(test_cats_dir)
-# Directory where the dog test dataset is located
 test_dogs_dir = os.path.join(test_dir, 'dogs')
 os.mkdir(test_dogs_dir)
-# Copy the first 5000 cat images to train_cats_dir
 fnames = ['cat.{}.jpg'.format(i) for i in range(5000)]
 for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(train_cats_dir, fname)
     shutil.copyfile(src, dst)
-# Copy the next 2500 cat images to validation_cats_dir
 fnames = ['cat.{}.jpg'.format(i) for i in range(5000, 7500)]
 for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(validation_cats_dir, fname)
     shutil.copyfile(src, dst) 
-# Copy the next 2500 cat images to test_cats_dir
 fnames = ['cat.{}.jpg'.format(i) for i in range(7500, 10000)]
 for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(test_cats_dir, fname)
     shutil.copyfile(src, dst)
-# Copy the first 5000 dog images to train_dogs_dir
 fnames = ['dog.{}.jpg'.format(i) for i in range(5000)]
 for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(train_dogs_dir, fname)
     shutil.copyfile(src, dst)
-# Copy the next 2500 dog images to validation_dogs_dir
 fnames = ['dog.{}.jpg'.format(i) for i in range(5000, 7500)]
 for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(validation_dogs_dir, fname)
     shutil.copyfile(src, dst)
-# Copy the next 2500 dog images to test_dogs_dir
 fnames = ['dog.{}.jpg'.format(i) for i in range(7500, 10000)]
 for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(test_dogs_dir, fname)
     shutil.copyfile(src, dst)
-'
+`
 
 
 The classification of the dog and cat images is shown in the following figure.
