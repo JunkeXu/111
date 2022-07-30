@@ -46,43 +46,37 @@ pip install tensorflow==1.14.0
 
 pip install keras==2.2.5
 
-![4.png]((https://github.com/JunkeXu/111/blob/main/figure/4.png))
-
-### Installing the nb_conda_kernels package
-
-conda install nb_conda_kernels
-
-![1659192157%281%29.png](attachment:1659192157%281%29.png)
-
-### Install version 1.16.4 of numpy
+![4.png](https://github.com/JunkeXu/111/blob/main/figure/4.png)
 
 pip install numpy==1.16.4
 
-![image.png](attachment:image.png)
+![6.png](https://github.com/JunkeXu/111/blob/main/figure/6.png)
 
-### Installing the pillow and matplotlib
+conda install nb_conda_kernels
+
+![5.png](https://github.com/JunkeXu/111/blob/main/figure/5.png)
 
 pip install pillow
-![1659210198%281%29.png](attachment:1659210198%281%29.png)
 
+![7.png](https://github.com/JunkeXu/111/blob/main/figure/7.png)
 
 pip install matplotlib
 
-![1659210242.png](attachment:1659210242.png)
+![8.png](https://github.com/JunkeXu/111/blob/main/figure/8.png)
 
 ### Open the Jupyter Notebook (tf1) environment.
 
-![image.png](attachment:image.png)
+![9.png](https://github.com/JunkeXu/111/blob/main/figure/9.png)
 
 Click [New] → [Python [in tf1 environment]] to create the python file.
 
-![image.png](attachment:image.png)
+![10.png](https://github.com/JunkeXu/111/blob/main/figure/10.png)
 
 ## Dog and cat data classification modelling
 
 Once the dataset has been downloaded, unzip it as follows.
 
-![image.png](attachment:image.png)
+![11.png](https://github.com/JunkeXu/111/blob/main/figure/11.png)
 
 The code for classifying images of dogs and cats is as follows:
 
@@ -172,8 +166,8 @@ for fname in fnames:
 
 The classification of the dog and cat images is shown in the following figure.
 
-![1659193037%281%29.png](attachment:1659193037%281%29.png)
+![12.png](https://github.com/JunkeXu/111/blob/main/figure/12.png)
 
-![1659194393%281%29.png](attachment:1659194393%281%29.png)
+![13.png](https://github.com/JunkeXu/111/blob/main/figure/13.png)
 
-
+![14.png](https://github.com/JunkeXu/111/blob/main/figure/14.png)
