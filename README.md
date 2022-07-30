@@ -78,7 +78,7 @@ Once the dataset has been downloaded, unzip it as follows.
 
 The code for classifying images of dogs and cats is as follows:
 
-`
+```
 original_dataset_dir = 'C:\\Users\\xjk\\Desktop\\Cat_And_Dog\\train\\'
 base_dir = 'C:\\Users\\xjk\\Desktop\\Cat_And_Dog\\train1'
 os.mkdir(base_dir)
@@ -131,7 +131,7 @@ for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(test_dogs_dir, fname)
     shutil.copyfile(src, dst)
-`
+
 
 
 The classification of the dog and cat images is shown in the following figure.
