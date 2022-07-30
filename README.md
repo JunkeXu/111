@@ -169,3 +169,10 @@ The classification of the dog and cat images is shown in the following figure.
 ![13.png](https://github.com/JunkeXu/111/blob/main/figure/13.png)
 
 ![14.png](https://github.com/JunkeXu/111/blob/main/figure/14.png)
+
+## Summary of Analysis
+
+When comparing the baseline model, it is clear that the overall trend in loss is smaller for the model obtained with image augmentation and for the model obtained with image augmentation and the addition of a dropout layer. The addition of a dropout layer under the influence of data augmentation allows the training curve to follow the validation curve more closely and the fluctuations to be reduced, resulting in better training results, but with a slight decrease in accuracy. In addition, when we go through the feature extraction, we feed the image into VGG19's convolutional layer and let it extract the features from the image directly for us, we do not train and change VGG19's convolutional layer with our own images, the parameter tuning approach is that we train the convolutional layer provided by VGG19 with our own data to a limited extent, so that it can learn relevant information from our images. from our images. Using the VGG19 model, we can see that the network trained on more than a million images is much better than the one we trained, and the network verifies the images correctly at more than 99%.
+
+## Conclusion
+
