@@ -30,7 +30,7 @@ activate
 
 conda activate tf1
 
-![1.png](attachment:1.png)
+![2.png](https://github.com/JunkeXu/111/blob/main/figure/2.png)
 
 
 ## Packages
@@ -41,11 +41,11 @@ In the newly created virtual environment tf1, install the two libraries using th
 
 pip install tensorflow==1.14.0
 
-![1659191227%281%29.png](attachment:1659191227%281%29.png)
+![3.png](https://github.com/JunkeXu/111/blob/main/figure/3.png)
 
 
 pip install keras==2.2.5
-![1659191294%281%29.jpg](attachment:1659191294%281%29.jpg)
+![4.png]([attachment:1659191294%281%29.jpg](https://github.com/JunkeXu/111/blob/main/figure/4.png))
 
 ### Installing the nb_conda_kernels package
 
