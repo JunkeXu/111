@@ -45,7 +45,8 @@ pip install tensorflow==1.14.0
 
 
 pip install keras==2.2.5
-![4.png]([attachment:1659191294%281%29.jpg](https://github.com/JunkeXu/111/blob/main/figure/4.png))
+
+![4.png]((https://github.com/JunkeXu/111/blob/main/figure/4.png))
 
 ### Installing the nb_conda_kernels package
 
