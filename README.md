@@ -21,7 +21,7 @@ Open the cmd command terminal and create a virtual environment.
 
 conda create -n tf1 python=3.6
 
-![1659190445%281%29.jpg](attachment:1659190445%281%29.jpg)
+![1.jpg](https://github.com/JunkeXu/111/blob/main/figure/1.png)
 
 
 ### Activating the environment
