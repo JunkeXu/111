@@ -1,5 +1,32 @@
 # Image Recognition Dogs vs Cats
 
+
+````
+foundation-web
+    - java
+        - user
+            - controller
+            - dao
+            - mapper
+            - exception
+            - param
+            - entity
+            - service
+                - impl
+            - validation
+        - menu
+            ...
+        - config
+    - resources
+        - ddl 
+        - dml
+        - sql
+        - i18n
+        - application.yml
+        - logback-spring.xml
+        
+````
+
 Table of Contents
 =================
 
