@@ -131,7 +131,7 @@ for fname in fnames:
     src = os.path.join(original_dataset_dir, fname)
     dst = os.path.join(test_dogs_dir, fname)
     shutil.copyfile(src, dst)
-
+```
 
 
 The classification of the dog and cat images is shown in the following figure.
