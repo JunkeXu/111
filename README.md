@@ -3,7 +3,7 @@
 Table of Contents
 =================
 
-  * [Basic Overview](#BasicOverview)
+  * [Basic Overview](#Basic-Overview)
   * [Installation](#Installation)
   * [Data](#Data)
   * [Managing virtual environments](#Managingvirtualenvironments)
