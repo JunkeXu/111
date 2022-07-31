@@ -8,7 +8,9 @@ Table of Contents
   * [Data](#Data)
   * [Managing virtual environments](#Managing-virtual-environments)
     * [Create own virtual environment](#Create-own-virtual-environment)
+    * [Activating the environment](#Activating-the-environment)
   * [Packages](#Packages)
+  * [Open environment](#Open-the-Jupyter-Notebook-(tf1)-environment)
   * [Dog and cat data classification modelling](#Dog-and-cat-data-classification-modelling)
   * [Summary of Analysis](#Summary-of-Analysis)
   * [Conclution](#Conclution)
@@ -75,7 +77,7 @@ pip install matplotlib
 
 ![8.png](https://github.com/JunkeXu/111/blob/main/figure/8.png)
 
-### Open the Jupyter Notebook (tf1) environment.
+## Open the Jupyter Notebook (tf1) environment.
 
 ![9.png](https://github.com/JunkeXu/111/blob/main/figure/9.png)
 
