@@ -144,4 +144,4 @@ The approximate time to run the entire notebook is around 2 hours.
 
 Junke Xu 
 
-email: Junke.Xu@ucdconnect.ie
+email: junke.xu@ucdconnect.ie
