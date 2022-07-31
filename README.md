@@ -18,7 +18,9 @@ Table of Contents
   * [Conclution](#Conclution)
 
 ## Basic Overview
-![20.png](https://github.com/JunkeXu/111/blob/main/figure/20.png)
+
+![20.jpg](https://github.com/JunkeXu/111/blob/main/figure/20.jpg)
+
 Using cat and dog dataset to train a convolutional neural network model and achieve an accuracy of over 90% for cat and dog recognition
 
 ##  Installation
