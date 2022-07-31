@@ -3,12 +3,14 @@
 Table of Contents
 =================
 
-  * [Dockerfile.vim](#dockerfilevim)
-  * [Screenshot](#screenshot)
-  * [Installation](#installation)
-        * [OR using Pathogen:](#or-using-pathogen)
-        * [OR using Vundle:](#or-using-vundle)
-  * [License](#license)
+  * [Basic Overview](#Basic Overview)
+  * [Installation](#Installation)
+  * [Data](#Data)
+  * [Managing virtual environments](#Managing virtual environments)
+  * [Packages](#Packages)
+  * [Dog and cat data classification modelling](#Dog and cat data classification modelling)
+  * [Summary of Analysis](#Summary of Analysis)
+  * [Conclution](#Conclution)
 
 ## Basic Overview
 Using cat and dog dataset to train a convolutional neural network model and achieve an accuracy of over 90% for cat and dog recognition
