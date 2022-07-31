@@ -6,10 +6,11 @@ Table of Contents
   * [Basic Overview](#Basic-Overview)
   * [Installation](#Installation)
   * [Data](#Data)
-  * [Managing virtual environments](#Managingvirtualenvironments)
+  * [Managing virtual environments](#Managing-virtual-environments)
+   * [Create own virtual environment](#Create-own-virtual-environment)
   * [Packages](#Packages)
-  * [Dog and cat data classification modelling](#Dogandcatdataclassificationmodelling)
-  * [Summary of Analysis](#SummaryofAnalysis)
+  * [Dog and cat data classification modelling](#Dog-and-cat-data-classification-modelling)
+  * [Summary of Analysis](#Summary-of-Analysis)
   * [Conclution](#Conclution)
 
 ## Basic Overview
