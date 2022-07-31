@@ -1,5 +1,15 @@
 # Image Recognition Dogs vs Cats
 
+Table of Contents
+=================
+
+  * [Dockerfile.vim](#dockerfilevim)
+  * [Screenshot](#screenshot)
+  * [Installation](#installation)
+        * [OR using Pathogen:](#or-using-pathogen)
+        * [OR using Vundle:](#or-using-vundle)
+  * [License](#license)
+
 ## Basic Overview
 Using cat and dog dataset to train a convolutional neural network model and achieve an accuracy of over 90% for cat and dog recognition
 
